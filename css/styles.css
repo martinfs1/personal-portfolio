@@ -1,8 +1,69 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     margin: 0;
 }
+/* Header */
+header{
+    background-color: cadetblue;
+}
 
-h1{color:red}
+img {
+    width: 200px;
+}
+.about-me{
+    background-color: #fff;
+}
+.about-me h2{
+    text-align: center;
+}
+.icon-header{
+    width: 30px;
+}
+/* ^^^Header^^^ */
+
+/* Main */
+
+main h2{ 
+    text-align: center;
+}
+
+.card{
+    border: 1px solid lightgray;
+    box-shadow: 5px 5px 5px lightgray;
+    width: 280px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.card-img{
+    background-color: blueviolet;
+    height: 200px;
+    width: auto;
+    color:#fff
+}
+
+.icon-card{
+    width: 20px;
+}
+
+.info-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    align-items: center;
+    column-gap: 30px;
+}
+
+.div-icon-card{
+    display: flex;
+    column-gap: 10px;
+}
+
+.info-card p{
+    margin-top: 0;    
+}
+
+/*^^^ Main ^^^*/
+

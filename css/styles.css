@@ -3,67 +3,117 @@
 }
 
 body {
+    display: grid;
+    grid-template-rows: 1fr 3fr 0.5fr;
     margin: 0;
-}
-/* Header */
-header{
-    background-color: cadetblue;
+
 }
 
-img {
-    width: 200px;
+/* Header */
+
+header {
+    /* display: flex;     */
+    background-color: #1e3a8a;
 }
-.about-me{
+.photo{
+    width: 300px;
+}
+.profile-photo {
+    align-self: center;
+    margin: 40px;  
+    width: 250px;  
+}
+
+h1 {
+    position: absolute;
+    top: 440px;
+    left: 60px;
+    margin: 0;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size:40px;
+    line-height: 45px;
+    text-shadow: 4px 4px 7px black;
+}
+
+.about-me {
     background-color: #fff;
+
 }
-.about-me h2{
+
+.about-me h2 {
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
-.icon-header{
+
+.about-me p {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.icon-header {
     width: 30px;
 }
+
 /* ^^^Header^^^ */
 
 /* Main */
 
-main h2{ 
-    text-align: center;
+main {
+    grid-row: 2;
 }
 
-.card{
+main h2 {
+    margin: 30px 20px;
+
+}
+
+.card {
     border: 1px solid lightgray;
     box-shadow: 5px 5px 5px lightgray;
     width: 280px;
-    margin: auto;
+    margin: 0 20px;
     margin-bottom: 20px;
 }
-.card-img{
+
+.card-img {
     background-color: blueviolet;
     height: 200px;
     width: auto;
-    color:#fff
+    color: #fff
 }
 
-.icon-card{
+.icon-card {
     width: 20px;
 }
 
-.info-card{
+.info-card {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;    
+    justify-content: center;
     align-items: center;
     column-gap: 30px;
 }
 
-.div-icon-card{
+.div-icon-card {
     display: flex;
     column-gap: 10px;
 }
 
-.info-card p{
-    margin-top: 0;    
+.info-card p {
+    margin-top: 0;
 }
 
 /*^^^ Main ^^^*/
 
+/* Footer */
+footer {
+    grid-row: 3;
+    background-color: #1e3a8a;
+}
+
+.icon-phone, .icon-email {
+    width: 20px;
+}
+
+/*^^^ Footer ^^^*/
